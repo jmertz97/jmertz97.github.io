@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Austin Animal Center Dashboard</title>
+    <link href="https://unpkg.com/tabulator-tables@6.5.0/dist/css/tabulator.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.5.0/dist/js/tabulator.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-4.1.1.min.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+</head>
+<body>
+    <div style="text-align: center">
+        <h1>Austin Animal Center Dashboard</h1>
+        <img src="{{ url_for('static', filename='grazioso_salvare_logo.png') }}"
+             width="200px"
+             height="auto"
+             alt="Grazioso Salvare Logo"/>
+        <hr>
+        <div>
+            <div><label for="dropdown-id">Filter by rescue type...</label></div>
+            <br>
+            <select id="dropdown-id" style="width: 540px">
+                <option value="">---</option>
+                <option value="water">Water</option>
+                <option value="mountain">Mountain</option>
+                <option value="wilderness">Wilderness</option>
+                <option value="disaster">Disaster</option>
+                <option value="individual_tracking">Individual Tracking</option>
+            </select>
+        </div>
+        <hr>
+        <div id="datatable-id" style="max-width: 1440px; margin: 0 auto;"></div>
+        <br>
+        <hr>
+        <div class="row" style="display: flex;">
+            <div id="map-id" class="col-half" style="flex: 1;"></div>
+            <div id="graph-id" class="col-half" style="flex: 1; width: 550px; height: 300px"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/dashboard_table.js') }}"></script>
+</body>
+</html>
