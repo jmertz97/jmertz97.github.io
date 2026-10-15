@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Austin Animal Center Dashboard</title>
+    <link href="https://unpkg.com/tabulator-tables@6.5.0/dist/css/tabulator.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.5.0/dist/js/tabulator.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-4.1.1.min.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+</head>
+<body>
+    <div style="text-align: center">
+        <header style="position: relative;">
+            <img src="{{ url_for('static', filename='grazioso_salvare_logo.png') }}"
+                height="80"
+                alt="Grazioso Salvare Logo"
+                style="position: absolute; top: 0; left: 0; margin: 0;"/>
+            <h1 style="text-align: center; font-size: 32pt;">Austin Animal Center Dashboard</h1>
+        </header>
+        <hr>
+        <div>
+            <div><label for="dropdown-id"><b>Filter by rescue type:</b></label></div>
+            <br>
+            <select id="dropdown-id" style="width: 540px">
+                <option value="">---</option>
+                <option value="water">Water</option>
+                <option value="mountain">Mountain</option>
+                <option value="wilderness">Wilderness</option>
+                <option value="disaster">Disaster</option>
+                <option value="individual_tracking">Individual Tracking</option>
+            </select>
+        </div>
+        <hr>
+        <div id="datatable-id" style="max-width: 1440px; margin: 0 auto;"></div>
+        <br>
+        <section id="update-outcome-panel">
+        <b>Update outcome for: </b>
+        <div id="selected-animal-label" style="margin-bottom: 6px">[no animal selected]</div>
+        <label for="select-outcome-type">Outcome type:</label>
+        <select id="select-outcome-type" disabled>
+            <option value="" disabled hidden>(select an outcome)</option>
+        </select>
+        —
+        <label for="select-outcome-subtype">Subtype: </label>
+        <select id="select-outcome-subtype" disabled>
+            <option value="">(none)</option>
+        </select>
+        —
+        <button type="button" id="update-outcome-button" disabled>Update outcome</button>
+        <p id="update-status" role="status"></p>
+    </section>
+        <hr>
+        <div class="row" style="display: flex;">
+            <div id="map-id" class="col-half" style="flex: 1;"></div>
+            <div id="graph-id" class="col-half" style="flex: 1; width: 550px; height: 300px"></div>
+        </div>
+    </div>
+    <script>
+	    const VALID_OUTCOMES = {{ valid_outcomes | tojson }};
+    </script>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/piechart.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/update_minimenu.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/table.js') }}"></script>
+</body>
+</html>
