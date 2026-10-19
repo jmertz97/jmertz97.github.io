@@ -11,7 +11,6 @@ This GitHub Pages site hosts and presents my ePortfolio, initially drafted for t
 - [My GitHub](https://github.com/jmertz97)
 - Contact (email): jmertz97@gmail.com
 
-
 # **Professional Self-Assessment**
 
 In late 2017, I was informally introduced to programming when I took my friend up on his offer for me to join his modding project for the video game Hearts of Iron IV. I helped him by developing rudimentary scripts and sharing them with him on an unfamiliar website called GitHub. Though I only spent a few months as an active contributor, it grabbed my interest strongly enough for me to consider pursuing a career in Computer Science. Roughly a year after first picking up the hobby, I began my formal education in Computer Science by writing hello_world.py on my first day of class at UNCW.
