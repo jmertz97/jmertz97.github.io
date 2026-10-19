@@ -15,4 +15,4 @@ nav_order: 5
 ---
 
 ### Links
- - [direct link](https://youtu.be/SmtYbzVdWqo)
+ - [Direct link to video](https://youtu.be/SmtYbzVdWqo)

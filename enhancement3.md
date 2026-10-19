@@ -1,9 +1,9 @@
 ---
-title: Enhancement 3 - Databases
+title: Enhancement Three
 nav_order: 4
 ---
 
-# Enhancement 3 - Databases
+# Enhancement Three - Databases
 
 #### _Briefly describe the artifact. What is it? When was it created?_
 
@@ -40,5 +40,5 @@ One other challenge I faced was verifying that the README file’s instructions 
 
 ### Links
 - [Original files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact1_Original){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact1_Original.zip' | relative_url }}))
-- [Enhancement 3 files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact1_Enhanced_Category3){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact1_Enhanced_Category3.zip' | relative_url }}))
-- [Enhancement 1 - Software Design & Engineering]({% link enhancement1.md %}): Enhancement of this artifact continued from here
+- [Enhancement Three files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact1_Enhanced_Category3){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact1_Enhanced_Category3.zip' | relative_url }}))
+- [Enhancement One - Software Design & Engineering]({% link enhancement1.md %}): Enhancement of this artifact continued from here

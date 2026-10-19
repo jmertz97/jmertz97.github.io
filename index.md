@@ -5,7 +5,7 @@ nav_order: 1
 
 # Professional Self-Assessment
 
-In late 2017, I was informally introduced to programming when I took my friend up on his offer for me to join his modding project for the video game Hearts of Iron IV, helping him by developing rudimentary scripts and sharing them with him on an unfamiliar website called GitHub. Though I only spent a few months as an active contributor, it grabbed my interest strongly enough for me to consider pursuing a career in Computer Science. Roughly a year after first picking up the hobby, I began my formal education in Computer Science by writing hello_world.py on my first day of class at University of North Carolina Wilmington (UNCW).
+In late 2017, I was informally introduced to programming when I took my friend up on his offer for me to join his modding project for the video game Hearts of Iron IV. I helped him by developing rudimentary scripts and sharing them with him on an unfamiliar website called GitHub. Though I only spent a few months as an active contributor, it grabbed my interest strongly enough for me to consider pursuing a career in Computer Science. Roughly a year after first picking up the hobby, I began my formal education in Computer Science by writing hello_world.py on my first day of class at University of North Carolina Wilmington (UNCW).
 
 At UNCW, I learned the basic foundations of programming, familiarizing myself with common data structures and algorithms, and later learning how to evaluate them for complexity and efficiency. I also gained familiarity with security, studying and applying skills such as implementing default-deny policies and sanitizing user-provided input.
 
@@ -38,7 +38,7 @@ The Rescue Animal Intake program differs from the AAC dashboard in that its data
 ---
 
 ### Links
-- [Enhancement 1 - Software Design & Engineering]({% link enhancement1.md %}): AAC dashboard, part 1 (rebuilding as a Flask app)
-- [Enhancement 2 - Algorithms & Data Structures]({% link enhancement2.md %}): Rescue Animal Intake program
-- [Enhancement 3 - Databases]({% link enhancement3.md %}): AAC dashboard, part 2 (implementing schema validation, update functionality)
+- [Enhancement One - Software Design & Engineering]({% link enhancement1.md %}): AAC dashboard, part 1 (rebuilding as a Flask app)
+- [Enhancement Two - Algorithms & Data Structures]({% link enhancement2.md %}): Rescue Animal Intake program
+- [Enhancement Three - Databases]({% link enhancement3.md %}): AAC dashboard, part 2 (implementing schema validation, update functionality)
 - [Code Review Video]({% link codereview.md %})

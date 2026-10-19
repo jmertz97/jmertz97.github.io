@@ -1,9 +1,9 @@
 ---
-title: Enhancement 2 - Algorithms & Data Structures
+title: Enhancement Two
 nav_order: 3
 ---
 
-# Enhancement 2 - Algorithms & Data Structures
+# Enhancement Two - Algorithms & Data Structures
 
 #### _Briefly describe the artifact. What is it? When was it created?_
 
@@ -29,4 +29,4 @@ The main challenges I faced with this artifact were understanding and implementi
 
 ### Links
 - [Original files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact2_Original){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact2_Original.zip' | relative_url }}))
-- [Enhancement 2 files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact2_Enhanced_Category2){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact2_Enhanced_Category2.zip' | relative_url }}))
+- [Enhancement Two files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact2_Enhanced_Category2){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact2_Enhanced_Category2.zip' | relative_url }}))
