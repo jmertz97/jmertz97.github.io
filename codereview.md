@@ -3,7 +3,7 @@ title: Code Review Video
 nav_order: 5
 ---
 
-# Code Review Video
+# **Code Review Video**
 
 <iframe width="640" height="360"
   src="https://www.youtube.com/embed/SmtYbzVdWqo"

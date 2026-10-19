@@ -3,7 +3,7 @@ title: Enhancement One
 nav_order: 2
 ---
 
-# Enhancement One - Software Design & Engineering
+# **Enhancement One - Software Design & Engineering**
 
 #### _Briefly describe the artifact. What is it? When was it created?_
 
@@ -30,6 +30,6 @@ The JavaScript portion was the most challenging; it is my least familiar of the 
 ---
 
 ### Links
-- [Original files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact1_Original){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact1_Original.zip' | relative_url }}))
-- [Enhancement One files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact1_Enhanced_Category1){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact1_Enhanced_Category1.zip' | relative_url }}))
+- [Original files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact1_Original){:target="_blank"} ([download as .zip]({{ '/artifacts/zips/Artifact1_Original.zip' | relative_url }}))
+- [Enhancement One files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact1_Enhanced_Category1){:target="_blank"} ([download as .zip]({{ '/artifacts/zips/Artifact1_Enhanced_Category1.zip' | relative_url }}))
 - [Enhancement Three - Databases]({% link enhancement3.md %}): Enhancement of this artifact continued here
