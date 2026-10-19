@@ -37,7 +37,7 @@ The Rescue Animal Intake program differs from the AAC dashboard in that its data
 
 ---
 
-## Links
+### Links
 - [Enhancement 1 - Software Design & Engineering]({% link enhancement1.md %}): AAC dashboard, part 1 (rebuilding as a Flask app)
 - [Enhancement 2 - Algorithms & Data Structures]({% link enhancement2.md %}): Rescue Animal Intake program
 - [Enhancement 3 - Databases]({% link enhancement3.md %}): AAC dashboard, part 2 (implementing schema validation, update functionality)
