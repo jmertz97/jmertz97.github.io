@@ -3,9 +3,18 @@ title: Professional Self-Assessment
 nav_order: 1
 ---
 
-# Professional Self-Assessment
+# **Introduction**
 
-In late 2017, I was informally introduced to programming when I took my friend up on his offer for me to join his modding project for the video game Hearts of Iron IV. I helped him by developing rudimentary scripts and sharing them with him on an unfamiliar website called GitHub. Though I only spent a few months as an active contributor, it grabbed my interest strongly enough for me to consider pursuing a career in Computer Science. Roughly a year after first picking up the hobby, I began my formal education in Computer Science by writing hello_world.py on my first day of class at University of North Carolina Wilmington (UNCW).
+Hello! My name is Joshua Mertz. I began my Computer Science education in 2018 at University of North Carolina Wilmington (UNCW), and continued it from 2025 onwards at Southern New Hampshire University (SNHU). I am on track to complete my Bachelor's in Computer Science by the end of 2026.
+This GitHub Pages site hosts and presents my ePortfolio, initially drafted for the CS-499 Capstone course.
+
+- [My GitHub](https://github.com/jmertz97)
+- Contact (email): jmertz97@gmail.com
+
+
+# **Professional Self-Assessment**
+
+In late 2017, I was informally introduced to programming when I took my friend up on his offer for me to join his modding project for the video game Hearts of Iron IV. I helped him by developing rudimentary scripts and sharing them with him on an unfamiliar website called GitHub. Though I only spent a few months as an active contributor, it grabbed my interest strongly enough for me to consider pursuing a career in Computer Science. Roughly a year after first picking up the hobby, I began my formal education in Computer Science by writing hello_world.py on my first day of class at UNCW.
 
 At UNCW, I learned the basic foundations of programming, familiarizing myself with common data structures and algorithms, and later learning how to evaluate them for complexity and efficiency. I also gained familiarity with security, studying and applying skills such as implementing default-deny policies and sanitizing user-provided input.
 
@@ -13,7 +22,7 @@ The most noteworthy course I took was Software Engineering at UNCW, in which I w
 
 Our team followed an Agile-inspired development framework. A fellow team member took leadership of the project and oversaw other developers’ pull requests; clear milestones were set for each two-week-long sprint; and in-person Scrum meetings were held regularly. The professor acted as the stakeholder, providing feedback on our concept, proposing plausible customer requirements for the project to meet, and evaluating a live, in-person presentation and demonstration of the final deliverable.
 
-At the start of 2025, I transferred to Southern New Hampshire University (SNHU), where I developed skills that I hadn’t yet covered at UNCW. I learned to design, build, and query relational (SQL) databases in Intro to Structured Database Environments; I later learned to work with NoSQL (MongoDB) in Client/Server Development, from which I drew one of my artifacts. The latter course also introduced me to client-server architecture, and was followed by Full-Stack Development, where I expanded upon that skill by building Travlr Getaways, a MEAN-stack web application with a public-facing website and an SPA admin portal.
+At the start of 2025, I transferred to SNHU, where I developed skills that I hadn’t yet covered at UNCW. I learned to design, build, and query relational (SQL) databases in Intro to Structured Database Environments; I later learned to work with NoSQL (MongoDB) in Client/Server Development, from which I drew one of my artifacts. The latter course also introduced me to client-server architecture, and was followed by Full-Stack Development, where I expanded upon that skill by building Travlr Getaways, a MEAN-stack web application with a public-facing website and an SPA admin portal.
 
 I also continued to reinforce and expand upon the skills I had learned and applied at UNCW. In Software Development Lifecycle, I worked through a simulated Agile project where I individually rotated through the Agile roles of Product Owner, Scrum Master, developer, and tester throughout the six sprints. Overall, while I gained in-person experience with software development as a team in the UNCW program, I stepped into a wider range of roles via SNHU’s simulated, structured project environments.
 
@@ -42,3 +51,4 @@ The Rescue Animal Intake program differs from the AAC dashboard in that its data
 - [Enhancement Two - Algorithms & Data Structures]({% link enhancement2.md %}): Rescue Animal Intake program
 - [Enhancement Three - Databases]({% link enhancement3.md %}): AAC dashboard, part 2 (implementing schema validation, update functionality)
 - [Code Review Video]({% link codereview.md %})
+- [View repository on GitHub](https://github.com/jmertz97/jmertz97.github.io)
