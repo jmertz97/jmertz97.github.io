@@ -1,6 +1,10 @@
-# jmertz97.github.io
+---
+title: README.md
+nav_exclude: true
+---
 
-# Austin Animal Center Dashboard
+
+# jmertz97.github.io
 
 This is a Flask web app that allows users to view and make constrained edits to a table of database records within a dashboard.
 
