@@ -24,3 +24,9 @@ I believe I have covered the third course outcome through my refactoring of the 
 #### _Reflect on the process of enhancing and modifying the artifact._
 
 The main challenges I faced with this artifact were understanding and implementing unfamiliar patterns and data structures and ensuring that the input validation was sufficient without being disruptive to the user experience. One instance where these intersected was at the promptDouble() method in the driver class: I needed for the method to be able to return some kind of value that would signal to the caller (in the intake method) that the user had provided empty input and wished to return to the main menu. Since each field storing a double corresponded to a trait that had to be a positive, non-zero value (e.g. height, weight, age), I initially considered using either -1.0 or 0.0 as sentinel values. However, I then identified this as a form of magic number, and recognized that future code using the promptDouble() method may want to allow zero or negative values; thus, I familiarized myself with Java’s `Optional<>` class, which facilitates “empty” returns.  While it was not strictly necessary for the functionality of the Rescue Animal Service as-is, this change has ensured that the intake method’s escape behavior will continue to work as intended if negative values cease to be disallowed in future iterations of the program.
+
+---
+
+### Links
+- [Original files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact2_Original){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact2_Original.zip' | relative_url }}))
+- [Enhancement 2 files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact2_Enhanced_Category2){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact2_Enhanced_Category2.zip' | relative_url }}))

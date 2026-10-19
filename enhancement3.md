@@ -35,3 +35,10 @@ The code review process emphasized the importance of using specific and consiste
 One challenge I faced was learning the syntax for building the schema validation rules. While I had covered PyMongo queries and schema previously, the validation for the outcome_subtype column proved to be much more complicated than for the other columns, given that the acceptable string values for cells in that column were dependent on which value was present in the outcome_type column. I had to delve deeper into the MongoDB `$jsonSchema` documentation to understand how to format the schema using `anyOf`, before I could implement the `build_valid_outcomes()` function, which builds the `anyOf` branch from `VALID_OUTCOMES` in `valid_db_vals.py`.
 
 One other challenge I faced was verifying that the README file’s instructions were accurate. I expected this to be straightforward, but writing down the instructions and testing them in a standalone terminal helped me uncover where I had made assumptions based on my own setup, such as the project’s `.venv` being preconfigured to allow me to run the import script from within PyCharm, but not being similarly configured for VS Code or a basic Windows terminal.
+
+---
+
+### Links
+- [Original files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact1_Original){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact1_Original.zip' | relative_url }}))
+- [Enhancement 3 files](https://github.com/jmertz97/jmertz97.github.io/tree/main/artifacts/Artifact1_Enhanced_Category3){:target="_blank"} ([Download as .zip]({{ '/artifacts/zips/Artifact1_Enhanced_Category3.zip' | relative_url }}))
+- [Enhancement 1 - Software Design & Engineering]({% link enhancement1.md %}): Enhancement of this artifact continued from here
