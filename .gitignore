@@ -18,6 +18,3 @@ target/
 .idea/
 .DS_Store
 Thumbs.db
-
-# temporarily disable the README file
-README.md
