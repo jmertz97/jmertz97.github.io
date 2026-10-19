@@ -6,3 +6,10 @@ color_scheme: dark
 
 title: CS499 ePortfolio
 description: test description
+
+exclude:
+  - artifacts/Artifact1_Original/
+  - artifacts/Artifact2_Original/
+  - artifacts/Artifact1_Enhanced_Category1/
+  - artifacts/Artifact2_Enhanced_Category2/
+  - artifacts/Artifact1_Enhanced_Category3/
