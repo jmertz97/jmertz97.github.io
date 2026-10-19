@@ -3,6 +3,8 @@ title: Enhancement 1 - Software Design & Engineering
 nav_order: 2
 ---
 
+# Enhancement 1 - Software Design & Engineering
+
 ### _Briefly describe the artifact. What is it? When was it created?_
 
 This artifact is a dashboard that allows the user to view information about animals in the Austin Animal Center’s database. The dashboard was created as a Python notebook (using JupyterDash) and was designed to interface with a MongoDB database via a CRUD module implemented in Python, with the database itself generated from the `aac_shelter_outcomes.csv` file. The artifact was created during March and April 2026 for the CS340 course. 
